@@ -5,29 +5,85 @@
   header {
     background-color: antiquewhite;
     width: auto;
-    height: 20px;
+    height: 70px;
   }
   
   h1 {
     color: brown;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    font-family: 'Papyrus','Times New Roman', Times, serif;
     font-size: 20px;
+    z-index: 1;
+    padding-top: 15px;
+    padding-left: 10px;
   }
   
   
-  p, 
-  li {
+  p {
     font-size: 18px;
+    font-family: monaco;
   }
   
-  
-  a {
-    text-decoration: none;
-  }
+
 
   #navbar {
-    position: fixed;
-    display: flex;
-    
+    position: absolute;
+    display: inline;
+    padding: 20px;
+    margin: 20px;
+    top: -70px;
+    right: -27px;
+    z-index: 2;
+    height: 50px;
+    font-size: 32px;
+    box-shadow: 20px;
   }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+  }
+
+  li {
+    float: right;
+    padding: 30px;
+  }
+
+  img {
+    padding-top: 10px;
+    height: 600px;
+    width: 800px;
+    padding-left: 250px;
+  }
+
+  footer {
+    background-color: antiquewhite;
+    height: 70px;
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  blockquote {
+    background-color: antiquewhite;
+    text-align: center;
+    height: 100px;
+    width: 400px;
+    padding: 90px 40px 95px 50px;
+    margin-left: 400px;
+    font-family: papyrus;
+    font-size: 24px;
+  }
+
+  h2 {
+    text-align: left;
+    margin-left: 50px;
+    font-family: papyrus;
+    color: brown;
+  }
+
+ h3 {
+  font-family: monaco;
+  font-size: 24px;
+
+ } 
