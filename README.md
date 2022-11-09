@@ -1,2 +1,3 @@
-# Didimukhtar.github.io
-A hub for all my GitHub webpages 
+# Didi's blog
+---
+> Testing out all i'm learning with a personal blog :relieved: :wink:
