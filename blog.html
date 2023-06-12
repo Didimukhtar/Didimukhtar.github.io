@@ -51,7 +51,7 @@
                         <a class="nav-link" href="blog.html">Blog</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="features.html">Features</a>
+                        <a class="nav-link" href="poetry.html">Poetry</a>
                      </li>
                      <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact Us</a>
@@ -69,20 +69,23 @@
          <div class="container">
             <div class="row">
                <div class="col-lg-8 col-sm-12">
-                  <div class="about_img"><img src="images/img-8.png"></div>
+                  <div class="about_img"><img src="images/blogimage.jpeg" height="30px";></div>
                   <div class="like_icon"><img src="images/like-icon.png"></div>
-                  <p class="post_text">Post By : 09/06/2019</p>
-                  <h2 class="most_text">Most Awesome Blue Lake With Snow <br>River</h2>
-                  <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
-                  <div class="social_icon_main">
-                     <div class="social_icon">
-                        <ul>
-                           <li><a href="#"><img src="images/fb-icon.png"></a></li>
-                           <li><a href="#"><img src="images/twitter-icon.png"></a></li>
-                           <li><a href="#"><img src="images/instagram-icon.png"></a></li>
-                        </ul>
-                     </div>
-                     <div class="read_bt"><a href="#">Read More</a></div>
+                  <p class="post_text">Post By : 10/23/2022</p>
+                  <h2 class="most_text">Tech, The new oil?</h2>
+                  <p class="lorem_text">If you are reading this, it must mean that you acknowledge the title to be a rhetorical question. According to a report by IMF, the tech talent shortage will swell to more than 85 million tech workers by 2030, which in turn can potentially translate to lost revenue of over $8 trillion annually (Source: Korn Ferry). The United States does not produce enough IT graduates every year. Therefore, international students continue to be the country’s main resource for tech talent. Without new talent, business development and digital transformation are not possible, widening the gap between supply and demand for tech skills.</p>
+                     <div class="read_bt"><a href="https://didimukhtar.hashnode.dev/tech-the-new-oil">Read More</a></div>
+                  </div>
+               </div>
+               <br>
+               <div class="col-lg-8 col-sm-12">
+                  <div class="about_img"><img src="images/blogimage2.webp"></div>
+                  <div class="like_icon"><img src="images/like-icon.png"></div>
+                  <p class="post_text">Post By : 04/14/2023</p>
+                  <h2 class="most_text">Understanding File Paths and File Linking</h2>
+                  <p class="lorem_text">A path, alternatively known as the pathname or the current path is the complete location or name of where a computer, file, device, or web page is located.<br>
+                     A file path specifies the location of a file inside a web folder structure. It's like an address of a file which helps the web browser access the files.</p>
+                     <div class="read_bt"><a href="https://didimukhtar.hashnode.dev/understanding-file-paths-and-file-linking">Read More</a></div>
                   </div>
                </div>
                <div class="col-lg-4 col-sm-12">
@@ -90,10 +93,9 @@
                      <h1 class="follow_text">CONNECT & FOLLOW</h1>
                      <div class="follow_icon">
                         <ul>
-                           <li><a href="#"><img src="images/fb-icon-1.png"></a></li>
-                           <li><a href="#"><img src="images/twitter-icon-1.png"></a></li>
-                           <li><a href="#"><img src="images/linkedin-icon-1.png"></a></li>
-                           <li><a href="#"><img src="images/instagram-icon-1.png"></a></li>
+                           <li><a href="http://twitter.com/didimukhtar"><img src="images/twitter-icon-1.png"></a></li>
+                           <li><a href="http://linkedin.com/in/jamilat-al-mukhtar-b0a2551b5"><img src="images/linkedin-icon-1.png"></a></li>
+                           <li><a href="http://instagram.com/didimukhtar"><img src="images/instagram-icon-1.png"></a></li>
                         </ul>
                      </div>
                   </div>
@@ -111,7 +113,7 @@
                   <li><a href="index.html">Home</a></li>
                   <li><a href="about.html">About</a></li>
                   <li><a href="blog.html">Blog</a></li>
-                  <li><a href="features.html">Features</a></li>
+                  <li><a href="poetry.html">Poetry</a></li>
                   <li><a href="contact.html">contact us</a></li>
                </ul>
             </div>
@@ -145,5 +147,16 @@
       <!-- javascript --> 
       <script src="js/owl.carousel.js"></script>
       <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+      <script>
+         function toggleReadMore(){
+            var link = document.getElementById("readMoreLink");
+
+            if (link.innerHTML === "Read More") {
+               link.innerHTML = "Read Less";
+            } else {
+               link.innerHTML = "Read More";
+            }
+         }
+      </script>
    </body>
 </html>

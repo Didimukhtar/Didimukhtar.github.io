@@ -483,7 +483,7 @@ button {
 }
 
 .about_img {
-    width: 100%;
+    width: 60%;
     float: left;
 }
 
@@ -865,7 +865,34 @@ button {
 .contact_img {
     width: 100%;
     float: left;
-    background-image: url(../images/contact-img.png);
+    background-image: url(../images/didi.jpg);
+    height: 488px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact_img2 {
+    width: 100%;
+    float: left;
+    background-image: url(../images/contact-img2.jpeg);
+    height: 488px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact_img3 {
+    width: 100%;
+    float: left;
+    background-image: url(../images/contact-img3.jpeg);
+    height: 488px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact_img4 {
+    width: 100%;
+    float: left;
+    background-image: url(../images/contact-img4.JPG);
     height: 488px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1067,3 +1094,4 @@ textarea#comment::placeholder {
 .margin_top_90 {
     margin-top: 90px;
 }
+
